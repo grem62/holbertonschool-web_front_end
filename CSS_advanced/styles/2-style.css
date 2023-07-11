@@ -10,14 +10,14 @@ body,
 
     }
 
-    visually-hidden {
+    .visually-hidden {
         display: none;
     }
 
-    card-category {
+    .card-category {
         color: #D73953;
     }
 
-    card-category {
+    .card-category {
         color: #D73953;
     }
