@@ -440,8 +440,13 @@ a:active {
         margin-right: auto;
     }
 
-    .footer ul {
+    .footer {
         padding: var(--footer-padding);
+    }
+
+    .footer ul {
+        text-align: right;
+
     }
 
     .navbar-menu {
