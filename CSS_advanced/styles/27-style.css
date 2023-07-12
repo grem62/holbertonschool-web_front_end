@@ -542,8 +542,7 @@
 
   .section-hero {
     background-size: 50 auto;
-    width: 90rem;
-    height: auto;
+    width: 90rem auto;
   }
     .section-hero .section-title {
         margin-bottom: 5rem;
