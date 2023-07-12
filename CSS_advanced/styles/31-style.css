@@ -651,7 +651,6 @@ ul.row {
 
 
 :root {
-
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -660,49 +659,34 @@ ul.row {
     --text-color: var(--color-black);
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
-
-    /* Définition des variables de taille de police */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-
-    /* Définition des variables de poids de police */
     --font-weight-regular: 400;
-    --font-weight-bold: 700; /* Poids de police gras */
-
-    /* Définition des variables de hauteur de ligne */
+    --font-weight-bold: 700;
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-
-    /* Définition des variables pour les sections */
-    --section-header-align: center; /* Alignement du titre de section au centre */
-    --section-tagline-transform: uppercase; /* Transformation en majuscules pour la balise de sous-titre de section */
-    --section-title-margin: 0; /* Marge du titre de section */
-    --section-title-color: var(--color-black); /* Couleur du titre de section */
-    --section-padding: 5rem 0; /* Marge interne pour la section */
-    --section-header-padding: 0 0 3rem; /* Marge interne pour l'en-tête de section */
-    --section-body-padding: 0 0 3rem; /* Marge interne pour le contenu de la section */
-    --section-footer-padding: 3rem 0 0; /* Marge interne pour le pied de page de la section */
-    --section-footer-align: center; /* Alignement du pied de page de la section au centre */
-
-    /* Définition des variables pour le pied de page */
-    --footer-padding: 5rem 0 1rem; /* Marge interne pour le pied de page */
-
-    /* Variables pour le lien de navigation */
-    --nav-item-font-family: var(--font-family-title); /* Famille de police du lien de navigation */
-    --nav-item-font-weight: var(--font-weight-bold); /* Poids de la police du lien de navigation */
-    --nav-item-font-size: var(--font-size-medium); /* Taille de police du lien de navigation */
-    --nav-item-letter-spacing: 0.04rem; /* Espacement des lettres du lien de navigation */
-    --nav-item-display: inline-block; /* Affichage du lien de navigation en tant que bloc en ligne */
-    --nav-item-margin: 0 0 3rem 0; /* Marges du lien de navigation */
-    --nav-item-link-hover: var(--color-white); /* Couleur de lien au survol du curseur */
-
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
-
-    /* Buttons */
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -712,16 +696,12 @@ ul.row {
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
-
-    /* Header */
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-
 }
-
 
 
