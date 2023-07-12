@@ -440,7 +440,7 @@ a:active {
         margin-right: auto;
     }
 
-    .footer {
+    .footer ul {
         padding: var(--footer-padding);
     }
 
