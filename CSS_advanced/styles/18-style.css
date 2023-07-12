@@ -464,7 +464,7 @@ a:active {
     margin: var(--nav-item-margin);
     }
 
-    .nav-link .nav {
+    .nav .nav-link {
         display: block;
         padding: 0,5rem 1rem;
         
